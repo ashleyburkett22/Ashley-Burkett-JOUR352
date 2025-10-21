@@ -1,0 +1,31 @@
+{
+    "name": "@phcode/node-core",
+    "description": "Phoenix Node Core",
+    "version": "4.0.3-0",
+    "apiVersion": "4.0.3",
+    "keywords": [],
+    "author": "arun@core.ai",
+    "homepage": "https://github.com/phcode-dev/phoenix",
+    "license": "GNU-AGPL3.0",
+    "scripts": {
+        "_watch_src-node": "cd .. && npm run _watch_src-node"
+    },
+    "engines": {
+        "node": "20"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phcode-dev/phoenix"
+    },
+    "IMPORTANT!!": "Adding things here will bloat up the package size",
+    "dependencies": {
+        "@phcode/fs": "^3.0.1",
+        "open": "^10.1.0",
+        "npm": "10.1.0",
+        "ws": "^8.17.1",
+        "lmdb": "^2.9.2",
+        "mime-types": "^2.1.35",
+        "cross-spawn": "^7.0.6",
+        "which": "^2.0.1"
+    }
+}
