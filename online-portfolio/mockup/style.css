@@ -40,7 +40,7 @@ h1 {
 h2 {
     font-family: "Source Sans 3";
     color: #9cc0d3;
-    font-size: 200%;
+    font-size: 50px;
     text-align: center;
     background-color: #00283d;
     padding: 20px;
@@ -62,7 +62,7 @@ button {
     border-radius: 50px;
     margin-bottom: 30px;
     position: relative;
-    top: 225px;
+    top: 210px;
     left: 250px;
 }
 
@@ -151,46 +151,4 @@ h4 {
     font-size: 25px;
     font-weight: 700;
     font-style: italic;
-}
-
-/*xsmall*/
-@media {
-        h2 {
-        font-size: 20px;
-    }
-}
-
-/*small*/
-@media (min-width: 576px) {
-    h2 {
-        font-size: 30px;
-    }
-}
-
-/*medium*/
-@media (min-width: 768px) {
-    h2 {
-        font-size: 45px;
-    }
-}
-
-/*large*/
-@media (min-width: 992px) {
-    h2 {
-        font-size: 60px;
-    }
-}
-
-/*xlarge*/
-@media (min-width: 1200px) {
-    h2 {
-        font-size: 72px;
-    }
-}
-
-/*xxlarge*/
-@media (min-width: 1400px) {
-    h2 {
-        font-size: 100px;
-    }
 }
