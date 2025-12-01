@@ -1,0 +1,85 @@
+Ink Black:#0D1B2A
+Prussian Blue: #1B263B
+Dusk Blue: #415A77
+Dusty Denim: #778DA9
+Light Gray: #F5F5F4
+
+
+img {
+    width: 64%;
+    margin-bottom: 30px;
+}
+
+.mic {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.camera {
+    width: 100%;
+}
+
+.ligue {
+    width: 100%;
+}
+
+.greatrix {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.placeholder {
+    width: 100%;
+}
+h1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #778da9;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 65px;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+
+h2 {
+    position: absolute;
+    bottom: 10px;
+    top: 940px;
+    left: 120px;
+    color: white;
+    font-family: lora;
+    font-style: italic;
+}
+
+h3 {
+    font-family: "lora";
+    color: #9cc0d3;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    background-color: #415a77;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+body {
+    background-color: #f4f6fc;
+    color: #0d1b2a;
+    font-family: lato;
+    margin: 50px;
+    font-size: 18px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.spotify {
+    width: 100%;
+}
+
+.flourish-embed flourish-chart {
+    width: 100%;
+}
