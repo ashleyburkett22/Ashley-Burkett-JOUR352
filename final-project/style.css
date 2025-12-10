@@ -8,53 +8,56 @@ Light Gray: #F5F5F4 */
     body,
     html {
         overflow-x: hidden;
-        margin: 0;
     }
 
     img {
-        width: 100%;
-        margin-bottom: 30px;
+        width:100%;
+        display: block;
+        margin:0;
+        
+    }
+    
+    .top {
+        padding:0;
     }
 
     .mic {
         width: 100%;
         margin-top: 50px;
     }
-
-    .camera {
-        width: 100%;
+    .apple {
+        margin:auto;
+        width:100%;
+    }
+    
+    .byline {
+        color: black;
+        font-size:15px;
+        margin:0;
+        text-align:left;
     }
 
-    .ligue {
-        width: 100%;
-    }
-
-    .greatrix {
-        width: 100%;
-        margin-top: 30px;
-    }
-
-    .placeholder {
-        width: 100%;
-    }
     h1 {
         color: #778da9;
         font-family: Playfair Display;
-        font-size: 30px;
-        margin-top: 90px;
-        margin-left: 110px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align:center;
+        
     }
 
     h2 {
         color: white;
         font-family: Playfair Display;
         font-style: italic;
+        font-size: 13px;
+        margin-bottom:210px;
+        text-align:center;
     }
 
     .top-text {
         position: absolute;
         bottom: 200px;
-        /*background color add*/
     }
     
     h3 {
@@ -72,12 +75,11 @@ Light Gray: #F5F5F4 */
         background-color: #f4f6fc;
         color: #0d1b2a;
         font-family: lato;
-        margin: 50px;
         font-size: 18px;
     }
 
     p {
-        margin-top: 30px;
+        margin:20px;
     }
 
     .spotify {
@@ -93,31 +95,43 @@ Light Gray: #F5F5F4 */
     .disclaimer {
         font-style: italic;
     }
+    .map {
+        margin:50px;
+    }
+    h6 {
+        color:#778da9;
+        font-family:lato;
+    }
+    .Isaiah {
+        font-size: 10px;
+        margin-left:30px;
+    }
+    .Stu {
+        font-size:10px;
+    }
 }
     
 @media (min-width:568px) {
-     h1 {
-        font-size: 55px;
+    .byline {
+        font-size:20px;
+    }
+    h1 {
+        font-size: 60px;
+        margin-bottom:30px;
     }
     h2 {
-        font-size: 20px;
-        width: 300px;
+        font-size:25px;
+        margin-bottom:30px;
+    }
     }
     h3 {
         font-size: 20px;
     }
-    body {
-        font-size: 15px;
-        margin: 0;
-    }
-    img {
-        width:100%;
-    }
-    .flourish-embed flourish-map {
-    width: 100%;
-    }
     .chart{
-    width:50%;
-    float: left;
+        width:50%;
+        float: left;
+        margin-right: 30px;
     }
+    .apple {
+    width:30%
 }
