@@ -11,14 +11,16 @@ Light Gray: #F5F5F4 */
     }
 
     img {
-        width:100%;
+        width: 100%;
         display: block;
-        margin:0;
-        
+        margin: 0;
     }
-    
     .top {
-        padding:0;
+        padding: 0;
+        background-image: url(head_image.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
     }
 
     .mic {
@@ -26,24 +28,24 @@ Light Gray: #F5F5F4 */
         margin-top: 50px;
     }
     .apple {
-        margin:auto;
-        width:100%;
+        margin: auto;
+        width: 100%;
     }
-    
+
     .byline {
         color: black;
-        font-size:15px;
-        margin:0;
-        text-align:left;
+        font-size: 15px;
+        margin: 0;
+        text-align: left;
+        padding-top: 5px;
     }
 
     h1 {
         color: #778da9;
         font-family: Playfair Display;
-        font-size: 20px;
-        margin-bottom: 10px;
-        text-align:center;
-        
+        font-size: 25px;
+        margin-bottom: 0;
+        text-align: center;
     }
 
     h2 {
@@ -51,15 +53,17 @@ Light Gray: #F5F5F4 */
         font-family: Playfair Display;
         font-style: italic;
         font-size: 13px;
-        margin-bottom:210px;
-        text-align:center;
+        margin-bottom: 0;
+        text-align: center;
     }
 
     .top-text {
         position: absolute;
-        bottom: 200px;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
     }
-    
+
     h3 {
         font-family: Playfair Display;
         color: #9cc0d3;
@@ -79,7 +83,7 @@ Light Gray: #F5F5F4 */
     }
 
     p {
-        margin:20px;
+        margin: 20px;
     }
 
     .spotify {
@@ -96,42 +100,57 @@ Light Gray: #F5F5F4 */
         font-style: italic;
     }
     .map {
-        margin:50px;
+        margin: 50px;
     }
     h6 {
-        color:#778da9;
-        font-family:lato;
+        color: #778da9;
+        font-family: lato;
     }
     .Isaiah {
         font-size: 10px;
-        margin-left:30px;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 5px;
     }
     .Stu {
-        font-size:10px;
+        font-size: 8px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .credit {
+        font-style: italic;
     }
 }
-    
-@media (min-width:568px) {
+
+@media (min-width: 576px) {
     .byline {
-        font-size:20px;
-    }
-    h1 {
-        font-size: 60px;
-        margin-bottom:30px;
-    }
-    h2 {
-        font-size:25px;
-        margin-bottom:30px;
-    }
-    }
-    h3 {
         font-size: 20px;
     }
-    .chart{
-        width:50%;
-        float: left;
-        margin-right: 30px;
+    h1 {
+        font-size: 50px;
     }
-    .apple {
-    width:30%
+    h2 {
+        font-size: 25px;
+    }
+}
+h3 {
+    font-size: 20px;
+}
+.chart {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.apple {
+    width: 30%;
+}
+.Isaiah {
+    font-size: 10px;
+    padding-top: 5px;
+}
+.Stu {
+    font-size: 10px;
+    padding-right: 20px;
 }
